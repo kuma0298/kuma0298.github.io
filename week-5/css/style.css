@@ -1,0 +1,32 @@
+h1 {
+    color: burlywood;
+  }
+  header {
+    background-color: aquamarine;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  h1, h2, h3, h4 {
+    border: 1px solid darkcyan;
+  }
+  p {
+    font-weight: 500;
+  }
+  div p {
+    font-weight: 200;
+  }
+  .Highlight {
+    background-color: beige;
+  }
+  #Explain {
+    color: blueviolet;
+    border: 2px solid gray;
+  }
+  dt:nth-child(even) {
+    background-color: darkcyan;
+  }
+  dt:nth-child(odd) {
+    background-color: crimson;
+  }
+  
+
