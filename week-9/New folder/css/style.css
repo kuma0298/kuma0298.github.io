@@ -1,0 +1,54 @@
+/* General Styles */
+.container {
+  padding: 20px;
+}
+
+.gameslist li {
+  padding: 10px;
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Mobile styles */
+.largekitten {
+  display: none; /* Hide large image on mobile */
+}
+
+/* Media query for 480px and above */
+@media (min-width: 480px) {
+  .smallkitten {
+    display: none; /* Hide small image on larger screens */
+  }
+  
+  .largekitten {
+    display: inline; /* Show large image */
+  }
+}
+
+/* Media query for 800px and above */
+@media (min-width: 800px) {
+  .gameslist li {
+    display: inline-block;
+    border-bottom: none; /* Remove bottom border */
+    border-right: 1px solid #ccc; /* Add right border */
+  }
+  
+  /* Remove last item's border-right */
+  .gameslist li:last-child {
+    border-right: none;
+  }
+}
+
+/* Media query for 900px to 1200px */
+@media (min-width: 900px) and (max-width: 1200px) {
+  h1 {
+    font-size: 4rem; /* Set font-size for h1 */
+  }
+}
+
+/* Media query for 1200px and above */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6rem; /* Set font-size for h1 */
+  }
+}
